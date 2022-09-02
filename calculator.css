@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+main{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 129, 232);
+}
+
+#heading{
+    text-align: center;
+    background-color: rgb(30, 19, 19);
+    color: white;
+    height: 15%;
+    position: relative;
+    top: -26px;
+    padding-top: 20px;
+}
+
+#display{
+    height: 100px;
+    width: 500px;
+    position: relative;
+    top: -40px;
+    background-color: rgb(202, 198, 236);
+    font-size: 36px;
+    text-align:right;
+    overflow: hidden;
+  
+}
+
+
+table{
+ position: relative;
+ top: -26px;
+
+
+
+}
+button{
+   font-size: 25px;
+    height: 50px;
+    width: 120px;
+
+}
+
+.last-row{
+    background-color: rgb(221, 50, 50);
+}
+
+.row{
+    display: flex;
+}
+
+
+#long-btn{
+    width: 242px;
+  
+}
